@@ -33,7 +33,7 @@ ratings_got=[]
 release_date=[]
 
 while(currPage<=last_page):
-    time.sleep(3)
+    time.sleep(4)
     titles = driver.find_elements(by=By.XPATH, value="//h3")[1:]
     authors = driver.find_elements(by=By.XPATH, value="//li[contains(@class, 'authorLabel')]")
 
